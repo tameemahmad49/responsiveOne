@@ -1,0 +1,633 @@
+/* file for responsive web design - with responsive css */
+
+
+
+@media (max-width:1230px) {
+
+
+
+.textBanner1 {
+    font-size: 40px;
+  }
+  
+  .textBanner2 {
+    font-size: 32px;
+  }
+  
+  #service .card {
+    padding: 0px 16px;
+  }
+  
+  .serviceHeading2 {
+    font-size: 27px;
+  }
+  
+  .notice img {
+    margin-top: 30px;
+  }
+  
+  .notices.card.p-2 {
+    font-size: 14px;
+  }
+    
+  .footerParagraph {
+    font-size: 14px;
+  }
+  
+  .footerIcon.text-white.p-1 {
+    font-size: 14px;
+  }
+  
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:1030px) {
+    
+
+.menu ul li a {
+    padding: 16px;
+  }
+  
+  .textBanner {
+    padding: 45px;
+    padding-top: 200px;
+  }
+  
+  .service {
+    padding: 50px 0;
+  }
+  
+  
+    .textBanner1 {
+      font-size: 37px;
+    }
+    .serviceHeading2 {
+      font-size: 21px;
+    }
+    .notices.card.p-2 {
+      font-size: 10px;
+    }
+    .footerParagraph {
+      font-size: 12px;
+    }
+    .footerIcon.text-white.p-1 {
+      font-size: 12px;
+    }
+  
+  
+  .serviceParagraph.pb-3 {
+    font-size: 14px;
+  }
+  
+  .noticeParagraph {
+    font-size: 13px;
+  }
+
+
+
+
+
+
+iframe {
+  height: 299px;
+}
+
+textarea.form-control.mb-2 {
+  height: 113px;
+}
+
+.contactHeading.text-center.pb-3 {
+  padding-bottom: 25px !important;
+}
+
+  
+
+}
+
+
+
+
+@media (max-width:767px) {
+
+
+.menu ul {
+    line-height: 32px;
+    position: relative;
+    top: 55px;
+    width: 770px;
+    left: 134px;
+    background: #2b2b2b;
+    padding-left: 164px;
+  }
+  
+  .logo {
+    position: relative;
+    right: -173px;
+  }
+  
+  .banner {
+    height: 450px;
+  }
+  
+  .aboutParagraph {
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .service {
+  }
+  
+  .notice img {
+    width: 195%;
+  }
+  
+  .noticeMain {
+    position: relative;
+    bottom: 928px;
+    right: -427px;
+  }
+  
+  
+    #service .card {
+      width: 400px;
+      margin-left: 65px;
+      margin-top: 27px;
+    }
+    .notice img {
+      margin-left: -13px;
+      margin-top:0;
+    }
+  
+    .noticeParagraph {
+      width: 400px;
+      margin-left: -13px;
+    }
+    .footerParagraph {
+      width: 300px;
+    }
+    .footerIcon.text-white.p-1 {
+      position: relative;
+      top: -4px;
+    }
+    .notices.card.p-2 {
+      font-size: 12px;
+    }
+  
+  
+  #service .row {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  
+  #portfolio .row {
+    display: inline;
+  }
+  
+  #contact {
+    margin-top: -675px !important;
+  }
+
+    #home {
+        border-bottom: 1px solid #ffffffb0;
+      }
+      .noticeHeader {
+        font-size: 20px;
+    }
+
+
+    .noticeMain {
+      position: absolute;
+      bottom: 452px;
+    }
+    #contact {
+      margin-top: 0!important;
+    }
+  
+    #portfolio {
+      position: relative;
+    }
+    .noticeParagraph {
+      width: 380px;
+    }
+  
+  }
+  
+  
+
+  
+
+
+  @media (max-width:620px) {
+
+
+    .textBanner1 {
+      font-size: 33px;
+    }
+  
+    .textBanner2 {
+      font-size: 28px;
+    }
+  
+    .aboutParagraph {
+      font-size: 13px;
+    }
+    .notices.card.p-2 {
+      /* font-size: 12px; */
+      font-size: 13px;
+      padding: 3px !important;
+    }
+  
+  
+  .noticeHeader {
+    font-size: 20px;
+  }
+  .noticeMain {
+	position: relative;
+	bottom: 928px;
+	right: -400px;
+}
+  
+  }
+
+
+
+
+
+  @media (max-width:575px) {
+
+
+    .menu ul {
+        position: initial;
+        padding-left: 288px;
+        border-top: 1px solid #ffffffa1;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .notice img {
+      width: 122%;
+    }
+    .noticeParagraph {
+      width: 353px;
+    }
+    .noticeMain {
+      bottom: 1132px;
+      right: -373px;
+    }
+    .footerParagraph {
+      margin-left: 143px;
+    }
+    .footerIcon.text-white.p-1 {
+      top: -11px;
+      left: -220px;
+    }
+    .logo {
+      right: -197px;
+    }
+  
+    .aboutParagraph {
+      font-size: 20px;
+      width: 76%;
+    }
+    .notices.card.p-2 {
+      width: 120px;
+    }
+  
+  
+  #portfolio .img-thumbnail {
+    max-width: 30%;
+  }
+  .noticeMain {
+	position: relative;
+
+}
+  
+  }
+
+
+
+
+
+
+
+
+  @media (max-width:545px) {
+
+
+    .logo {
+    }
+    .menu ul {
+      width: 101%;
+      display: block;
+    }
+    .aboutParagraph {
+      font-size: 15px;
+      line-height: 30px;
+    }
+    #portfolio .img-thumbnail {
+      max-width: 52%;
+    }
+    .notice img {
+      width: 114%;
+    }
+    .noticeParagraph {
+      width: 253px;
+      margin-top: 10px;
+    }
+    .noticeMain {
+        position: relative;
+       
+    }
+    .noticeMain {
+      bottom: 1632px;
+      right: -282px;
+    }
+  
+    .logo {
+      position: initial;
+    }
+    #service .card {
+      width: 104%;
+      margin-left: 110px;
+      margin: 15px auto;
+    }
+  
+    .textBanner1 {
+      font-size: 31px;
+    }
+  
+    .service {
+      text-align: center;
+    }
+
+
+
+    .footerParagraph {
+      margin-left: 0px;
+    }
+    .footerIcon.text-white.p-1 {
+      top: -41px;
+      left: 0;
+    }
+  
+  
+  }
+
+
+
+
+
+  @media (max-width:449px) {
+
+
+    .textBanner {
+      padding: 5px;
+      padding-top: 121px;
+    }
+    .menu ul li a {
+      padding: 9px;
+    }
+    .footerIcon.text-white.p-1 {
+      font-size: 13px;
+    }
+  
+    .banner {
+      height: 350px;
+    }
+    #contact {
+      margin-top: 0px !important;
+    }
+  
+    .textBanner1 {
+      font-size: 28px;
+    }
+    .aboutParagraph {
+      line-height: 25px;
+    }
+    #portfolio .img-thumbnail {
+      max-width: 69%;
+    }
+    .noticeParagraph {
+      width: 324px;
+    }
+    .noticeMain {
+        position: relative;
+       
+    }
+    .noticeMain {
+      bottom: -8px;
+      right: -4px;
+    }
+    .footerIcon.text-white.p-1 {
+      top: -13px;
+      left: -250px;
+    }
+  
+    .textBanner2 {
+      font-size: 25px;
+    }
+    .notices.card.p-2 {
+      font-size: 14px;
+      padding: 8px !important;
+    }
+  
+    .notices.card.p-2 {
+      width: 100%;
+    }
+  
+  
+  .menu ul li {
+    line-height: 45px;
+  }
+
+  .footer .col-sm-7 {
+	text-align: left !important;
+}
+
+.footerIcon.text-white.p-1 {
+  left: 0;
+}
+  
+  }
+
+
+  @media (max-width:375px) {
+
+
+    .menu ul li a {
+      padding: 7px;
+      font-size: 13px;
+    }
+    .textBanner1 {
+      font-size: 25px;
+    }
+    .textBanner2 {
+      font-size: 23px;
+    }
+    .noticeParagraph {
+      width: 268px;
+    }
+    .notices.card.p-2 {
+      font-size: 13px;
+      padding: 4px !important;
+    }
+    .footerIcon.text-white.p-1 {
+      font-size: 12px;
+    }
+    .aboutParagraph {
+      line-height: 24px;
+    }
+  
+    .aboutParagraph {
+      width: 100%;
+    }
+  
+    .aboutParagraph {
+      font-size: 13px;
+    }
+    .notice img {
+      width: 118%;
+    }
+  
+    #service .card {
+      padding: 0px 3px;
+    }
+  
+    .footerParagraph {
+      font-size: 11px;
+    }
+  
+  
+  .serviceIcon {
+    padding: 16px;
+  }
+  
+  }
+
+  @media (max-width:300px) {
+
+
+
+
+    .menu ul {
+      margin-top: 10px;
+    }
+ 
+  
+
+
+    .textBanner {
+        padding: 105px 0;    }
+    .banner {
+      height: 270px;
+    }
+    .noticeMain {
+      bottom: -45px;
+    }
+    .menu ul li {
+      line-height: 28px;
+    }
+  
+    .menu ul li a {
+      padding: 3px;
+      font-size: 11px;
+    }
+    .textBanner1 {
+      font-size: 20px;
+    }
+    .textBanner2 {
+      font-size: 21px;
+    }
+    .aboutParagraph {
+      line-height: 22px;
+    }
+    .aboutParagraph {
+      font-size: 12px;
+    }
+    .serviceIcon {
+      padding: 6px;
+    }
+    .noticeParagraph {
+      width: 211px;
+    }
+    .notice img {
+      width: 125%;
+    }
+    .notices.card.p-2 {
+      padding: 2px !important;
+    }
+    .footerParagraph {
+      font-size: 10px;
+    }
+    .footerIcon.text-white.p-1 {
+      font-size: 11px;
+    }
+  
+    .serviceHeading2 {
+      font-size: 19px;
+    }
+    .serviceParagraph.pb-3 {
+      font-size: 12px;
+    }
+  
+    .noticeHeader {
+      font-size: 22px;
+    }
+  
+  
+  .logo img {
+    width: 76%;
+  }
+  
+  .aboutHeading {
+    padding-top: 35px;
+  }
+  
+  
+  .google-map {
+    height: 257px;
+  }
+  
+  iframe {
+    height: auto;
+  }
+  
+  .google-map {
+    height: 170px;
+  }
+  
+  .serviceHeading.pb-3 {
+    padding-top: 35px;
+  }
+  
+  .google-map {
+    height: 220px;
+  }
+  
+  iframe {
+    height: 100%;
+  }
+  
+  .form {
+    padding-top: 20px;
+  }
+  
+  }
+
+
+
+
+
+
+
